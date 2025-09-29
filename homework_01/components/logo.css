@@ -1,0 +1,10 @@
+/* logo */
+.logo-item {
+    display: flex;
+    align-items: center;
+
+    .logo {
+        height: 46px;
+        width: auto;
+    }
+}

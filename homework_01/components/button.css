@@ -1,0 +1,134 @@
+/* home-page button.css */
+/* 預設 */
+.btn-pr {
+    height: 48px;
+    width: 115px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: var(--primary-300);
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+/* 暗色 */
+.btn-bk {
+    height: 48px;
+    width: auto;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-on-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: var(--text-primary);
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+
+/* product-list button.css */
+/* 按鈕的預設樣式 */
+.size-btn {
+    flex: 1 1 calc(30% - 8px);
+    height: auto;
+    min-width: 120px;              /* 不要太小 */
+    padding: 12px 24px;
+    border-radius: 8px;
+    outline: 1px solid #DEE2E6;
+    color: var(--text-primary);
+    background-color: var(--text-on-dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* 改變滑鼠游標為手形，提示可點擊 */
+}
+
+/* 按鈕的按住樣式 */
+.size-btn:active {
+    height: auto;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 8px;
+    outline: 1px solid #212529;
+    color: var(--text-primary);
+    background-color: var(--text-on-dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-btn:hover {
+    height: auto;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 8px;
+    outline: 1px solid #6C757D;
+    color: var(--text-primary);
+    background-color: var(--text-on-dark);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 按鈕停用樣式 */
+.disabled {
+    outline: 1px solid #DEE2E6;
+    color: var(--text-primary);
+    background-color: var(--text-on-dark);
+    opacity: 40%;
+    cursor: not-allowed;
+    /* 滑鼠變禁止 */
+    pointer-events: none;
+    /* 阻止點擊事件 */
+}
+
+.last-button-outline{
+    height: auto;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 4px;
+    outline: 1px solid #212529;
+    background-color: var(--text-on-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.last-button-fill{
+    height: auto;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
